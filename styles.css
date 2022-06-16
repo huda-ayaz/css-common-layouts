@@ -1,0 +1,145 @@
+/* Layout #1: commmon for nav bars 
+.box {
+    border: 4px solid lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+.box-small {
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+}
+
+.box-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    border: 4px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+*/
+
+/* Layout #2
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;   
+}
+
+.title {
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.box {
+    border: 4px solid lightgray;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+*/
+
+/* Layout #3 
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-small {
+    height: 50px;
+}
+
+.box-wrapper {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-large {
+    width: 45%;
+}
+*/
+
+/* Layout #4 */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px solid lightgray;
+    padding: 80px 24px 80px 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto -24px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-small {
+    height: 50px;
+}
+
+.box-tiny {
+    width: 30%;
+    height: 50px;
+
+}
+
+.tiny-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-wrapper {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-large {
+    width: 45%;
+}
